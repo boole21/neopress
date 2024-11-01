@@ -17,8 +17,8 @@ features:
   - title: 第一部分 官网练习
     link: /fullStack/NextJs/office/index
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 第二部分 
-    link: /fullStack/Javascript/Part2
+  - title: 第二部分 lama dev
+    link: /fullStack/NextJs/lamadev/beginner.md
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   - title: 第三部分 其它文章
     link: /fullStack/Javascript/Part3

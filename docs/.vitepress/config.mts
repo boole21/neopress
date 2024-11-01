@@ -15,7 +15,7 @@ export default defineConfig({
 					{ text: "Javascript", link: "/fullStack/Javascript/index" },
 					{ text: "Typescript", link: "/fullStack/Typescript/index" },
 					{ text: "Vue", link: "/fullStack/Vue3/index" },
-					{ text: "VueRout", link: "" },
+					{ text: "VueRout", link: "/fullStack/VueRouter/hd/01basic" },
 					{ text: "Pinia", link: "" },
 					{ text: "Vite", link: "" },
 					{ text: "React", link: "/fullStack/React/index" },
@@ -24,6 +24,7 @@ export default defineConfig({
 					{ text: "NestJs", link: "" },
 					{ text: "Vitepress", link: "/fullStack/Vitepress/index" },
 					{ text: "Tailwindcss", link: "" },
+					{ text: "Laravel", link: "/fullStack/Laravel/index" },
 				],
 			},
 			{
@@ -116,7 +117,51 @@ export default defineConfig({
 				},
 			],
 
-			"/fullStack/Css": [{ text: "", collapsed: true, items: [] }],
+			"/fullStack/Css": [
+				{
+					text: "hdCss",
+					collapsed: true,
+					items: [
+						{
+							text: "01第一章CSS3简介",
+							link: "/fullStack/Css/hd/01第一章CSS3简介",
+						},
+						{
+							text: "02第二章CSS3选择器",
+							link: "/fullStack/Css/hd/02第二章CSS3选择器",
+						},
+						{
+							text: "03第三章CSS3权重",
+							link: "/fullStack/Css/hd/03第三章CSS3权重",
+						},
+						{
+							text: "04第四章CSS3文本",
+							link: "/fullStack/Css/hd/04第四章CSS3文本",
+						},
+						{
+							text: "05第五章CSS3盒子模型",
+							link: "/fullStack/Css/hd/05第五章CSS3盒子模型",
+						},
+						{
+							text: "06第六章CSS3背景处理",
+							link: "/fullStack/Css/hd/06第六章CSS3背景处理",
+						},
+						{
+							text: "07第七章使用CSS3操作数据内容样式",
+							link: "/fullStack/Css/hd/07第七章使用CSS3操作数据内容样式",
+						},
+						{
+							text: "08第八章css3浮动布局深度挖掘",
+							link: "/fullStack/Css/hd/08第八章css3浮动布局深度挖掘",
+						},
+						{ text: "09第九章CSS3定位布局特性", link: "/fullStack/Css/hd/09第九章CSS3定位布局特性" },
+						{
+							text: "10第十章CSS3FLEX弹性盒模型",
+							link: "/fullStack/Css/hd/10第十章CSS3FLEX弹性盒模型",
+						},
+					],
+				},
+			],
 			"/fullStack/Javascript": [
 				{
 					text: "Js一",
@@ -264,6 +309,38 @@ export default defineConfig({
 						},
 					],
 				},
+				{
+					text: "hd Vue3",
+					collapsed: true,
+					items: [
+						{ text: "01第一章新手入门启航篇", link: "/fullStack/Vue3/hd/01basic" },
+						{ text: "02第二章组件化开发", link: "/fullStack/Vue3/hd/02component" },
+						{ text: "03第三章插槽slot使用技巧", link: "/fullStack/Vue3/hd/03slot" },
+						{ text: "04第四章provide-inject与动态组件", link: "/fullStack/Vue3/hd/04provideInjectDynamic" },
+						{ text: "05第五章生命周期", link: "/fullStack/Vue3/hd/05lifeCycle" },
+						{ text: "06第六章composition api基础", link: "/fullStack/Vue3/hd/06compositionApi" },
+						{
+							text: "07第七章composition之script-setup",
+							link: "/fullStack/Vue3/hd/07compositionScriptSetup",
+						},
+						{ text: "08第八章过渡与动画", link: "/fullStack/Vue3/hd/08TransitionAnimation" },
+						{ text: "09第九章vue与typescript结合", link: "/fullStack/Vue3/hd/09typescript" },
+					],
+				},
+			],
+			"/fullStack/VueRouter": [
+				{
+					text: "hd VueRouter",
+					collapsed: true,
+					items: [
+						{ text: "01第一章vue-router基础知识", link: "/fullStack/VueRouter/hd/01basic" },
+						{ text: "02第二章布局视图与路由导向", link: "/fullStack/VueRouter/hd/02viewLink" },
+						{ text: "03第三章路由守卫", link: "/fullStack/VueRouter/hd/03routeGuard" },
+						{ text: "04第四章路由动画与滚动效果", link: "/fullStack/VueRouter/hd/04animation" },
+						{ text: "05第五章路由懒加载", link: "/fullStack/VueRouter/hd/05lazyLoad" },
+						{ text: "06第六章动态添加路由", link: "/fullStack/VueRouter/hd/06dynamicRoute" },
+					],
+				},
 			],
 			"/fullStack/Typescript": [
 				{
@@ -322,6 +399,41 @@ export default defineConfig({
 							text: "Day5",
 							link: "/fullStack/React/heima/day5",
 						},
+					],
+				},
+			],
+			"/fullStack/Laravel": [
+				{
+					text: "Laravel hd",
+					collapsed: true,
+					items: [
+						{ text: "1基本", link: "/fullStack/Laravel/hd/1basic" },
+						{ text: "2sms", link: "/fullStack/Laravel/hd/1sms" },
+					],
+				},
+			],
+			"/fullStack/NextJs": [
+				{
+					text: "NextJs官方练习",
+					collapsed: true,
+					items: [
+						{ text: "0介绍", link: "/fullStack/NextJs/office" },
+						{ text: "1基础", link: "/fullStack/NextJs/office/1Started" },
+						{ text: "2样式", link: "/fullStack/NextJs/office/2Styling" },
+						{ text: "3字体图像", link: "/fullStack/NextJs/office/3FontsImages" },
+						{ text: "4Layouts", link: "/fullStack/NextJs/office/4LayoutsPage" },
+						{ text: "5导航", link: "/fullStack/NextJs/office/5Navigating" },
+						{ text: "6建立数据", link: "/fullStack/NextJs/office/6Database" },
+						{ text: "7数据获取", link: "/fullStack/NextJs/office/7FetchingData" },
+						{ text: "8渲染", link: "/fullStack/NextJs/office/8Rendering" },
+						{ text: "9流", link: "/fullStack/NextJs/office/9Streaming" },
+						{ text: "10部分预渲染", link: "/fullStack/NextJs/office/10PartialPrerendering" },
+						{ text: "11标记页面", link: "/fullStack/NextJs/office/11SearchPagination" },
+						{ text: "12数据变异", link: "/fullStack/NextJs/office/12MutatingData" },
+						{ text: "13处理错误", link: "/fullStack/NextJs/office/13HandlingErrors" },
+						{ text: "14易用性", link: "/fullStack/NextJs/office/14Accessibility" },
+						{ text: "15身份验证", link: "/fullStack/NextJs/office/15Authentication" },
+						{ text: "16元数据", link: "/fullStack/NextJs/office/16Metadata" },
 					],
 				},
 			],

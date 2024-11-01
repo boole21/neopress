@@ -235,7 +235,7 @@ ssh-keygen -t rsa
 
 ```bash
 git remote add origin git@github.com:zhangyue0503/hdcms.git # 关联远程库
-git  remote -v # 查看远程库
+git remote -v # 查看远程库
 git push -u origin main # 推送main分支到远程库
 ```
 

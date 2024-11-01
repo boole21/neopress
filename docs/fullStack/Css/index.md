@@ -17,16 +17,16 @@ features:
   - title: 第一部分 编程语言
     link: /fullStack/Javascript/Part1
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 第二部分 浏览器 文档，事件，接口
-    link: /fullStack/Javascript/Part2
+  - title: 第二部分 hdCss3
+    link: /fullStack/Css/hd/01第一章CSS3简介
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: 第三部分 其它文章
-    link: /fullStack/Javascript/Part3
+  - title: 第三部分 常用练习
+    link: /fullStack/Css/Exercise
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
 
 <script setup>
-  import XmindViewer from '../../components/XmindViewer.vue'
+  import XmindViewer from '../../components/xmind/XmindViewer.vue'
 </script>
 
 <XmindViewer url="./hdCss3.xmind"/>

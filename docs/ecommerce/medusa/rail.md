@@ -48,7 +48,7 @@ yarn add medusa-payment-stripe
 .env
 
 ```text
-  STRIPE_API_KEY=sk_...
+  STRIPE_API_KEY=sk_test_51PrJAaCbNTh5gVzLfArVPQqaTEdZrX7tGOGcrUwxxHDSapaeNhhAuqLaNL5sODwTG522wIf3yBvd2knh2L4m4so500JDNoR8nn
   # only necessary for production
   STRIPE_WEBHOOK_SECRET=whsec_...
 ```
@@ -68,6 +68,34 @@ Medusa-config.js
   ]
 ```
 
+storefront--.env.local
+
+NEXT_PUBLIC_STRIPE_KEY=<YOUR_PUBLISHABLE_KEY>
+
+
+
 
 
 Email: 需要把redis打开
+
+# 4. 安装步骤
+
+1. 再railway.app中新建一个template，选择medusajs
+
+2. 新建后的默认账号密码
+
+   ```text
+   Email: admin@medusa-test.com
+   Password: supersecret
+   ```
+
+3. 点eject，复制并新建一个github仓库，并下载到本地，新建分支develop,同步到线上，在develop上开发
+
+   ```text
+   git clone  git@github.com:boole21/medusajs-tattoo.git
+   git checkout -b develop
+   git push --set-upstream origin develop
+   ```
+
+4. 复制medusajs-backend中的.env.template并修改为.env，复制medusa-storefront中的.env.local.template并修改为.env.local,此两个文件为本地中的运行环境
+
